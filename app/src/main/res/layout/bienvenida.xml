@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a la primera aplicación de Danny Caamal"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="En este momento se realizará una evualuación"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciemos"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/banderamexico"
+        android:onClick="independencia1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</LinearLayout>
